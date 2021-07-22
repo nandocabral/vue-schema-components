@@ -80,11 +80,6 @@ export default {
         this.schema = JSON.parse(newVal);
       }
     }
-  },
-  created() {
-    axios.get("/json/archiving.json").then(response => {
-      this.schema = response.data;
-    });
   }
 };
 </script>

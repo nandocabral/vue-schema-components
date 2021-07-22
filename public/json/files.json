@@ -11,7 +11,7 @@
         "type": "vuec-single-image",
         "props": {
           "archiving": {
-            "getFileUrl": "http://newton.klayware.com/colima/archivos:obtener?file=",
+            "getFileUrl": "http://localost/obtener?file=",
             "typesFiles": ["jpg", "png"]
           }
         }
